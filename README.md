@@ -1,6 +1,6 @@
-# IAT 222 D100 Interactive Arts 
-## 3.4 Final Assignment Webpage
-## Echoes of the Past by Studio Tempus
+# Echoes of the Past by Studio Tempus
+IAT 222 D100 Interactive Arts School Project \
+3.4 Final Assignment Webpage
 
 ## Available Scripts
 
