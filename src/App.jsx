@@ -1,5 +1,5 @@
 import './App.css';
-import { Hero, Writeup, TermsOfUse, Documentation } from './components';
+import { Hero, Writeup, TermsOfUse, Documentation, DetailedAnalysis } from './components';
 
 
 
@@ -8,6 +8,7 @@ export default function App() {
     <div className="App">
       <Hero />
       <Writeup />
+      <DetailedAnalysis />
       <Documentation />
     </div>
 

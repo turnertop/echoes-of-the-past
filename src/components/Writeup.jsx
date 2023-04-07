@@ -17,6 +17,19 @@ const TextWithImage = () => {
     </div>
   );
 };
+/*
+const DetailedAnalysis = () => {
+  return (
+    <div className="">
+
+
+    </div>
+
+
+
+  );
+};
+*/
 
 const HeroSection = () => {
   return (
@@ -108,6 +121,7 @@ const HeroSection = () => {
       <button className="bg-gray text-black py-2 px-4 rounded mt-4 hover:bg-gray-200">Learn More</button>
     </div>); };
     */
+
 
 
 
