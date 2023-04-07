@@ -3,6 +3,7 @@ import "./App.css";
 import Sample from './assets/Sample.mp4';
 import { useRef } from 'react';
 import { useEffect } from 'react';
+import { Writeup } from './components';
 
 export default function App() {
 
@@ -50,6 +51,15 @@ export default function App() {
           </ul>
         </div>
       </main>
+      <div style={{ position: 'relative'}}>
+  <div style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}>
+    This is the overlapping div
+  </div>
+</div>
+
+
+
+      <Writeup />
     </div>
   );
 }
