@@ -3,6 +3,8 @@ import Sample from '../assets/Sample.mp4';
 import { useState, useEffect, useRef } from "react";
 import Poster from '../assets/Poster.png';
 
+
+/* Working but not ideal Apr 7 344pm
 const Video = () => {
   const [isPlaying, setIsPlaying] = useState(true);
 
@@ -71,10 +73,10 @@ const Video = () => {
     </section>
   );
 };
+*/
 
 
-
-/* Most Stable Patch (autoPlays, onScroll it stops the video) Apr 7 2023 336pm
+// Most Stable Patch (autoPlays, onScroll it stops the video) Apr 7 2023 336pm
 const Video = () => {
   const [isPlaying, setIsPlaying] = useState(true);
 
@@ -123,7 +125,6 @@ const Video = () => {
     </section>
   );
 };
-*/
 
 /* Autoplay Muted for GChrome w/o Scrolling Disable Though
 const Video = () => {
