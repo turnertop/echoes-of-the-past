@@ -1,5 +1,5 @@
 import './App.css';
-import { Hero, Writeup } from './components';
+import { Hero, Writeup, TermsOfUse } from './components';
 
 
 
