@@ -12,7 +12,9 @@ npm run dev
 ```
 # Contributing
 
-Sorry you're not allowed to contribute. After all, I have no enemies.
+Sorry you're not allowed to contribute.
+
+After all, I have no enemies.
 
 # License
 
