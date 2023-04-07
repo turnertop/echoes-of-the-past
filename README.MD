@@ -2,6 +2,10 @@
 
 Echoes of the Past is an immersive art installation by Studio Tempus. 
 
+It was designed for our IAT 222 D100 Interactive Arts class.
+
+This is the Webpage for our Exhibition.
+
 # Installation
 ```javascript
 npm run dev
