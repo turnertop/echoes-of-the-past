@@ -1,10 +1,13 @@
 import './App.css';
-import { Hero } from './components';
+import { Hero, Writeup } from './components';
+
+
 
 export default function App() {
   return (
     <div className="App">
       <Hero />
+      <Writeup />
     </div>
 
 
