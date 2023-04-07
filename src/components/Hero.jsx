@@ -74,7 +74,7 @@ const Video = () => {
 
 
 
-/* Most Stable Patch (autoPlays, onScroll it stops the video)
+/* Most Stable Patch (autoPlays, onScroll it stops the video) Apr 7 2023 336pm
 const Video = () => {
   const [isPlaying, setIsPlaying] = useState(true);
 
@@ -365,7 +365,7 @@ const Video = () => {
 };
 */
 
-
+/* Moved these two components into Writeup.JSX because it's more appropriate
 const TextWithImage = () => {
   return (
     <div className="flex flex-row items-center justify-center">
@@ -391,13 +391,14 @@ const HeroSection = () => {
       <p className="text-black text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper dictum lobortis.</p>
       <button className="bg-gray text-black py-2 px-4 rounded mt-4 hover:bg-gray-200">Learn More</button>
     </div>); };
+    */
+
+
 
 export default function Hero() {
   return (
     <div className="Hero">
       <Video />
-      <HeroSection />
-      <TextWithImage />
     </div>
   );
 };
