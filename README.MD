@@ -10,4 +10,6 @@ This is the Webpage for our Exhibition.
 ```javascript
 npm run dev
 ```
+# Contributing
 
+Sorry you're not allowed to contribute. After all, I have no enemies.
