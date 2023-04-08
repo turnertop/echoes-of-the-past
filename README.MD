@@ -32,6 +32,8 @@ Have team review design of website
 
 Implement content for detailed analysis, implement content for documentation on website
 
+Decide / Evaluate whether to have website with no scroll and state to reflect changes or keep as is
+
 Purchase a domain for the website if necessary
 
 # License
