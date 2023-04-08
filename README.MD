@@ -10,6 +10,8 @@ This is the Webpage for our Exhibition.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9fce7354-2658-48b4-b976-ba2a5ee949ac/deploy-status)](https://app.netlify.com/sites/enchanting-faun-78c615/deploys)
 
+Removed website link for privacy reasons so that the my team doesn't find my Github hehe!
+
 # Installation
 ```javascript
 npm run dev
