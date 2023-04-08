@@ -1,5 +1,7 @@
 import React from 'react';
 import Poster from '../assets/Poster.png';
+import Bios from '../assets/Bios.png';
+import biosSVG from '../assets/biosSVG.svg';
 
 
 const TextWithImage = () => {
@@ -46,6 +48,20 @@ const HeroSection = () => {
     </div>
   );
 };
+
+
+/*
+// testing design feature for a giant text logo of Bios but struggling
+const TestSection = () => {
+  return (
+<section class="relative">
+  <img src={Bios} alt="Image" className="absolute bottom-0 left-0 h-20 w-20" />
+</section>
+
+
+  );
+};
+*/
 
 
 
@@ -123,13 +139,41 @@ const HeroSection = () => {
     */
 
 
+/* B and S cut off
+const BiosSection = () => {
+  return (
+    <section className="relative h-screen">
+      <div className="absolute bottom-0 left-0 w-full h-full">
+        <img src={biosSVG} alt="BIOS" className="object-cover w-1/2 h-1/2" />
+      </div>
+      <div className="absolute bottom-0 left-0 w-full h-full flex flex-col justify-end items-start p-10 text-white">
+      </div>
+    </section>
+  );
+};
+*/
 
+
+/* initial prototype for biosSection but too big for Bios Logo
+const BiosSection = () => {
+  return (
+    <section className="relative h-screen">
+      <div className="absolute bottom-0 left-0 w-full h-full">
+        <img src={biosSVG} alt="BIOS" className="object-cover w-full h-full" />
+      </div>
+      <div className="absolute bottom-0 left-0 w-full h-full flex flex-col justify-end items-start p-10 text-white">
+      </div>
+    </section>
+  );
+};
+*/
 
 export default function Writeup() {
   return (
     <div className="Writeup">
       <HeroSection />
       <TextWithImage />
+
     </div>
 
 

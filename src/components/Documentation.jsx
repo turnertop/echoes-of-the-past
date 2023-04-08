@@ -11,6 +11,7 @@ const DocumentationPlaceHolder = () => {
         <h1 className="text-4xl font-bold text-black mb-2" style={{fontFamily: 'Merriweather'}}>Placeholder</h1>
         <p className="text-black text-2xl text-center max-w-3xl" style={{fontFamily: 'Montserrat'}}>
           [Placeholder]
+          Documentation of your finished work as installed in the final exhibition
         </p>
       </div>
     </div>
