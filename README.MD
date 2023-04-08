@@ -34,6 +34,8 @@ Implement content for detailed analysis, implement content for documentation on 
 
 Decide / Evaluate whether to have website with no scroll and state to reflect changes or keep as is
 
+Evaluate whether or not to add an arrow at the bottom to indicate scrolling
+
 Purchase a domain for the website if necessary
 
 # License
