@@ -6,6 +6,8 @@ It was designed for our IAT 222 D100 Interactive Arts class.
 
 This is the Webpage for our Exhibition.
 
+# Version
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9fce7354-2658-48b4-b976-ba2a5ee949ac/deploy-status)](https://app.netlify.com/sites/enchanting-faun-78c615/deploys)
 
 # Installation
