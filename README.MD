@@ -40,6 +40,8 @@ Evaluate whether or not to have video continue playing if they scroll down or ha
 
 Evaluate whether or not to add an arrow at the bottom to indicate scrolling
 
+Need to remove and replace the Vitejs logo in the index.html
+
 Purchase a domain for the website if necessary
 
 # License
