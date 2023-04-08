@@ -20,6 +20,20 @@ Sorry you're not allowed to contribute.
 
 After all, I have no enemies.
 
+# To Do List
+
+Finish Content for Detailed Analysis
+
+Have Exhibition, Record Videos and Take Photos of Exhibition for Documentation
+
+Have team review content
+
+Have team review design of website
+
+Implement content for detailed analysis, implement content for documentation on website
+
+Purchase a domain for the website if necessary
+
 # License
 
 The Machine
