@@ -28,8 +28,6 @@ Finish Content for Detailed Analysis
 
 Have Exhibition, Record Videos and Take Photos of Exhibition for Documentation
 
-Have team review content
-
 Have team review design of website
 
 Implement content for detailed analysis, implement content for documentation on website
@@ -39,8 +37,6 @@ Decide / Evaluate whether to have website with no scroll and state to reflect ch
 Evaluate whether or not to have video continue playing if they scroll down or have the onscroll disable it as it is right now
 
 Evaluate whether or not to add an arrow at the bottom to indicate scrolling
-
-Need to remove and replace the Vitejs logo in the index.html
 
 Purchase a domain for the website if necessary
 
