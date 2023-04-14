@@ -1,6 +1,6 @@
 import './App.css';
 import { Hero, Writeup, TermsOfUse, Documentation, DetailedAnalysis } from './components';
-
+import { motion } from "framer-motion";
 
 
 export default function App() {
