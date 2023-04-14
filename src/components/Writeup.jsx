@@ -3,7 +3,7 @@ import Poster from '../assets/Poster.png';
 import Bios from '../assets/Bios.png';
 import biosSVG from '../assets/biosSVG.svg';
 
-
+/*
 const TextWithImage = () => {
   return (
     <div className="flex flex-row items-center justify-center">
@@ -19,6 +19,8 @@ const TextWithImage = () => {
     </div>
   );
 };
+*/
+
 /*
 const DetailedAnalysis = () => {
   return (
@@ -172,7 +174,6 @@ export default function Writeup() {
   return (
     <div className="Writeup">
       <HeroSection />
-      <TextWithImage />
 
     </div>
 
