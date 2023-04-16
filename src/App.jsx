@@ -1,5 +1,6 @@
 import { Hero, Writeup, DetailedAnalysis, Documentation } from './components';
 import { motion } from "framer-motion";
+import { useState } from 'react';
 /*
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
@@ -8,89 +9,38 @@ import { useRef } from 'react';
 */
 
 export default function App() {
-{/* 0-1 framer-motion 0-2 webdev
-  const writeupRef = useRef();
-  const writeupAnimation = useAnimation();
-  const { ref: writeupInViewRef, inView: writeupInView } = useInView();
-  
-  const { ref: detailedAnalysisRef, inView: detailedAnalysisInView } = useInView();
-  const detailedAnalysisAnimation = useAnimation();
 
-  const { ref: documentationRef, inView: documentationInView } = useInView();
-  const documentationAnimation = useAnimation();
+  const [globalState, setGlobalState] = useState(0)
 
-  useEffect(() => {
-    if (writeupInView) {
-      writeupAnimation.start({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 1 },
-      });
-    }
-  }, [writeupAnimation, writeupInView]);
-
-  useEffect(() => {
-    if (detailedAnalysisInView) {
-      detailedAnalysisAnimation.start({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 1 },
-      });
-    }
-  }, [detailedAnalysisAnimation, detailedAnalysisInView]);
-
-  useEffect(() => {
-    if (documentationInView) {
-      documentationAnimation.start({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 1 },
-      });
-    }
-  }, [documentationAnimation, documentationInView]);
-  */}
+if (globalState === 0) {
   return (
-    <div className="App">
+    <div className="appVideo">
       <Hero />
-{/*
-      <motion.div
-          ref={writeupRef}
-          initial={{ opacity: 0, y: 50 }}
-          animate={writeupAnimation}
-          transition={{ duration: 1 }}
-      >
-      */}
-      <Writeup />
-{/*
-      </motion.div>
-      */}
-{/*
-      <motion.div
-          ref={detailedAnalysisRef}
-          initial={{ opacity: 0, y: 50 }}
-          animate={detailedAnalysisAnimation}
-          transition={{ duration: 1 }}
-      >
-      */}
-      <DetailedAnalysis />
-{/*
-      </motion.div>
-      */}
-{/*
-      <motion.div
-          ref={documentationRef}
-          initial={{ opacity: 0, y: 50 }}
-          animate={documentationAnimation}
-          transition={{ duration: 1 }}
-      >
-      */}
-      <Documentation />
-{/*
-      </motion.div>
-      <div ref={writeupInViewRef} />
-      */}
+      <button onClick={() => setGlobalState(globalState + 1)} className="w-full h-full">
+        Enter
+      </button>
     </div>
 
   );
+
+} else if (globalState === 1) {
+  return (
+  
+    <div>
+      <Writeup />
+      <DetailedAnalysis />
+      <Documentation />
+    </div>
+
+
+
+  );
 };
+
+};
+
+
+
+
+
 
